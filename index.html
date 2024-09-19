@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<form action="" id="ff" >
+
+<p>1. What does CSS stand for?</p>
+<br>
+<input type="radio" name="first" id="1">
+<label for="">Computer Style Sheets</label>
+<input type="radio" name="first" id="2">
+<label for="">Creative Style Sheets</label>
+<input type="radio" name="first" id="3">
+<label for="">Cascading Style Sheets</label>
+<input type="radio" name="first" id="4">
+<label for="">Colorful Style Sheets</label>
+
+<br><br>
+
+<p>2. Which HTML tag is used to link an external CSS file?</p>
+<br>
+<input type="radio" name="sec" id="11">
+<label for=""> style </label>
+<input type="radio" name="sec" id="12">
+<label for="">link</label>
+<input type="radio" name="sec" id="13">
+<label for="">css</label>
+<input type="radio" name="sec" id="14">
+<label for="">script</label>
+<br><br>
+
+<p>3.What is the default display property for a `div` element in CSS?</p>
+<br>
+
+<input type="radio" name="thr" id="21">
+<label for=""> block</label>
+<input type="radio" name="thr" id="22">
+<label for="">inline</label>
+<input type="radio" name="thr" id="23">
+<label for="">inline-block</label>
+<input type="radio" name="thr" id="24">
+<label for="">flex</label>
+<br><br>
+
+<p>4. How can you apply a style to an element with the id “header” in CSS?</p>
+
+<input type="radio" name="four" id="31">
+<label for=""> #header</label>
+<input type="radio" name="four" id="32">
+<label for="">.header</label>
+<input type="radio" name="four" id="33">
+<label for="">header:</label>
+<input type="radio" name="four" id="34">
+<label for="">element:header</label>
+<br><br>
+
+
+<p>5. Which property is used to change the background color of an element?</p>
+
+<input type="radio" name="fiv" id="41">
+<label for=""> background-color</label>
+<input type="radio" name="fiv" id="42">
+<label for="">color</label>
+<input type="radio" name="fiv" id="43">
+<label for="">background</label>
+<input type="radio" name="fiv" id="44">
+<label for="">bgcolor</label>
+
+
+
+<br><br>
+<input type="submit" id="sub">
+
+
+</form>
+
+<script>
+
+d=document.getElementById("ff")
+
+d.addEventListener("submit", (e)=>{
+
+    e.preventDefault();
+
+// 1st mcq
+
+fir1=document.getElementById("1")
+fir2=document.getElementById("2")
+fir3=document.getElementById("3")
+fir4=document.getElementById("4")
+if(fir1.checked){
+    console.log(true);
+    
+}else{
+    console.log(false);
+    
+}
+
+
+// else if(fir2.unchecked) {
+
+//     console.log(false);    
+// }else {
+//     console.log(" fill option ");
+    
+// }
+
+// 2nd mcq
+
+sec1=document.getElementById("11")
+sec2=document.getElementById("12")
+sec3=document.getElementById("13")
+sec4=document.getElementById("14")
+if(sec2.checked){
+    console.log(true);
+    
+}else{
+    console.log(false);
+    
+}
+
+// 3rd mcq
+
+
+thr1=document.getElementById("21")
+thr2=document.getElementById("22")
+thr3=document.getElementById("23")
+thr4=document.getElementById("24")
+if(thr1.checked){
+    console.log(true);
+    
+}else{
+    console.log(false);
+    
+}
+
+// 4th mcq
+
+
+four1=document.getElementById("31")
+four2=document.getElementById("32")
+four3=document.getElementById("33")
+four4=document.getElementById("34")
+if(four1.checked){
+    console.log(true);
+    
+}else{
+    console.log(false);
+    
+}
+
+// 5th mcq
+
+fiv1=document.getElementById("41")
+fiv2=document.getElementById("42")
+fiv3=document.getElementById("43")
+fiv4=document.getElementById("44")
+
+if(fiv1.checked){
+    console.log(true);
+    
+}else{
+    console.log(false);
+    
+}
+
+})
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
